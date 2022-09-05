@@ -1,0 +1,65 @@
+
+@import"./layout/header";
+@import"./layout/footer";
+@import"./layout/navbar";
+@import"./layout/section";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+header{
+    background-color: #525050;
+    width: 100%;
+    height: 50px
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+
+}
+li {
+    text-decoration: none;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+section {
+  margin: 20px;
+}
+
+#band {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+#sylvain {
+  float: left;
+  height: 175px;
+  width: 125px;
+  float: right;
+}
+#gautier {
+  height: 175px;
+  width: 125px;
+  
+}
+#morgan {
+  height: 175px;
+  width: 125px;
+   float: right;
+}
+#bruno {
+  height: 175px;
+  width: 125px;
+}
+
