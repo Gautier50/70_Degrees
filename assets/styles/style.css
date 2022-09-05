@@ -8,6 +8,22 @@ body {
   color: white;
 }
 
+header {
+  background-color: #525050;
+  width: 100%;
+  height: 50px;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+
+li {
+  text-decoration: none;
+}
+
 h1 {
   display: flex;
   justify-content: center;
@@ -45,4 +61,12 @@ section {
 #bruno {
   height: 175px;
   width: 125px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #525050;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
